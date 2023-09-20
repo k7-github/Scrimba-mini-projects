@@ -1,0 +1,39 @@
+\Scrimba
+\The Frontend Developer Career Path
+\Module_3-Making_websites_interactive
+\2_JavaScript_challenges-part_1
+\8_Solo_Project_(PRO)-Basketball_Scoreboard
+
+This is the link to the Figma file for the "Basketball Scoreboard" project:
+https://www.figma.com/file/YC48MCx4frBFtYoz6rNJE6/Basketball-Scoreboard?type=design&node-id=0%3A1&t=nPc2WmJTFI7MJ1ZA-1
+
+Hints for this project
+https://projects.scrimba.com/basketball-scoreboard
+
+Basic Requirements
+-	Build it from scratch*
+	*Or use the basic framework provided by Scrimba.
+	You can build in Scrimba or use your local computer.
+-	Follow the design.
+	Use the Figma file above as reference.
+-	Make all six buttons work.
+	Three buttons (+1, +2, +3) for the home team.
+	Three buttons (+1, +2, +3) for the guest team.
+	Each button add the stated point to one of the teams when clicked.
+
+Stretch Goals (PS: Only if you want to go above and beyond)
+These goals require concepts that have not taught before.
+Hence, the stretch goals are for students who are ahead of the class
+or find the basic requirements boring.
+Don't do these goals if you are struggling.
+
+-	Add a "New Game" button.
+	This button resets the scores and starts a new game.
+-	Highlight the leader.
+	A display that shows which team has the highest current score.
+-	Add a few more counters (e.g. period, fouls, timer).
+	This is considered really complex,
+	and far beyond what has been taught in JavaScript class so far.
+-	Change the design
+	You can even change the sports and
+	buttons to accommodate the new sport.
