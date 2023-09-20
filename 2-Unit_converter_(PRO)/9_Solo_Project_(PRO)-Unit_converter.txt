@@ -1,0 +1,47 @@
+\Scrimba
+\The Frontend Developer Career Path
+\Module_3-Making_websites_interactive
+\7_JavaScript_challenges-part_3
+\9_Solo_Project_(PRO)-Unit_converter
+
+
+The unit converter converts numbers between metric and imperial units.
+It converts Lengths (Meters/Feet), Volumes (Liters/Gallons) and Mass (Kilograms/Pounds)
+
+Requirements
+1.	Follow one of the design specs (light mode or dark mode) as shown in the downloaded Figma file.
+2.	Generate all conversions when the user clicks "Convert".
+	All fields (meters, feet, liters, gallons, kilograms and pounds) must be populated with their respective values.
+3.	Round the numbers down to three (3) decimal places.
+	JavaScript tends to include many decimal places when it's doing calculations.
+	You have trim the decimal places down to 3 to make the numbers more readable.
+
+
+Intro to Figma for Developers
+https://www.youtube.com/watch?v=ybc2gkvjMDs
+
+https://projects.scrimba.com/unit-converter
+This document contains a hint for the Unit Converter Solo Project. 
+
+PS: Please remember that we have both a #javascript-help channel and a #html-css-help channel in our Discord community.
+If you have a very specific issue you’re struggling with, you should consider posting it there.
+
+JavaScript hint
+If you are struggling with getting started with the JavaScript,
+please take a look at this scrim (https://scrimba.com/scrim/co8e04296aac8b82727334c00),
+which contains the code for fetching the user input and converting it from meter to feet.
+
+
+CSS hint
+If you are struggling with getting started with the CSS,
+please take a look at this scrim (https://scrimba.com/scrim/co1f140ca9b50117cf9bd740a),
+which contains  a little bit of styling for the header and the main section.
+
+
+
+
+If you are still struggling for hours with this Solo Project after having used both of the above hints,
+please let the teacher Per Harald Borgen know via the #general channel on Discord,
+and we will consider adding more hints.
+Important: be sure to include a link to your scrim,
+so that he can understand what you are struggling with.
