@@ -1,0 +1,39 @@
+\Scrimba
+\The Frontend Developer Career Path
+\Module_2-Web_dev_basics
+\6_Solo_Project-Hometown_Homepage
+\2_Solo_Project-Hometown_Homepage
+
+References
+Per's Solo Project
+(https://www.figma.com/file/2QuGfAOcHaZJ6aHXfuamnK/Hometown-Homepage?type=design&node-id=0-1&t=JuGHuGMmsor64ck9-0)
+"Intro to Figma for Developers" by Bob Ziroll
+https://www.youtube.com/watch?v=ybc2gkvjMDs
+
+Requirements
+Build it from scratch*
+
+*You have the option of using the basic framework provided in this scrim,
+or build it from scratch in either Scrimba
+or your own code editor in your local computer.
+
+Make sure you use:
+	-Classes
+	-Flexbox
+	-Background-image
+	-The color palette
+		-Use this link to create color palette
+		(https://coolors.co/e3dfff-568ea3-222a68-c44900-a8763e)
+
+Stretch (Optional) Goals:
+Make it about your own hometown, country or whatever place you like.
+Use a different color palette.
+Add a Google Font.
+Find a way to use :hover pseudo-class on any of these elements.
+Add a whole new section.
+(Self-Imposed Challenge) Make another homepage using your local computer.
+
+If you intend to do this solo project within Scrimba,
+do it in a new scrim instead of saving it as note in this scrim.
+Click the horizontal three dots near the bottom right of the scrim.
+Click "Fork to new Scrim".
