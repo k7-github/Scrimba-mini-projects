@@ -1,0 +1,37 @@
+\Scrimba
+\The Frontend Developer Career Path
+\Module_3-Making_websites_interactive
+\8_Build_A_Mobile_App (36 lessons)
+\35_Solo_Project_(PRO)-We_are_the_Champions
+
+REQUIREMENTS
+
+Build it from "scratch".
+	Or you can use the skeleton framework provided by Scrimba.
+	There is an image file in the assets folder.
+
+Follow the design
+	The design is available in this Figma file.
+	https://www.figma.com/file/SgWlM7qkqTQa7fiGEcLKew/We-are-the-Champions?type=design&node-id=0-1&mode=design&t=SNPKLPGW5dOzRhku-0
+
+Firebase Realtime Database
+
+Make sure the app updates in  real time.
+
+STRECTH GOALS
+PS: Only if you want to go above and beyond
+Add From and To input fields.
+	The From input field is where users enter the name of the person who is giving the endorsement.
+	The In input field is where users enter the name of the person who is receiving the endorsement.
+	It's possible to push objects in addition to strings to Firebase Realtime Database.
+
+Reverse the order of endorsements.
+	Reverse the order so the most recent endorsement is on top of the list.
+
+Add likes feature.
+	Make sure that each user can LIKE an endorsement ONCE.
+
+Make a desktop version.
+
+Need Hints?
+Use https://different-marmoset-f7b.notion.site/We-are-the-Champions-e0c33422fb70424e8f1b0b6f19af04cf
