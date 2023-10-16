@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.hero {
+    text-align: center;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.guide {
+    text-align: center;
+}
