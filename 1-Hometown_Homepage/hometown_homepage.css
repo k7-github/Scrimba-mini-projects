@@ -18,7 +18,8 @@ body {
 }
 
 .card {
-    display: inline-flex;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
+    border: 2px black;
 }
