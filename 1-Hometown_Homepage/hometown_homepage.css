@@ -1,25 +1,49 @@
 body {
     margin: 0;
-    padding: 1em;
     box-sizing: border-box;
 }
 
 .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    width: 100%;
+    height: 50vh;
+    border: 1px solid black;
 }
 
 .activities {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    border: 1px solid black;
+    
 }
 
 .guide {
     text-align: center;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
 }
 
 .card {
+    width: 50%;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px black;
+    justify-content: space-evenly;
+    margin: 1em auto;
+    padding: 1em;
+    border: 1px solid black;
+}
+
+.guide-pic {
+    width: 55%;
+    align-self: center;
+}
+
+.guide-details {
+    width: 45%;
 }
