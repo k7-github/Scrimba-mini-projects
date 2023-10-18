@@ -25,11 +25,12 @@ body {
 /* Deep Carmine Pink (#F6332B) */
 
 .welcome {
-    border: 1px solid white;
     background-color: #F6332B;
-    width: 20em;
-    text-align: center;
+    border: 1px solid white;
+    padding: 0.5em 0em;
     user-select: none;
+    text-align: center;
+    width: 20em;
 }
 
 #welcome-1 {
