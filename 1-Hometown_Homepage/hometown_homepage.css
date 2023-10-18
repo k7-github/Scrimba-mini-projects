@@ -29,6 +29,7 @@ body {
     background-color: #F6332B;
     width: 20em;
     text-align: center;
+    user-select: none;
 }
 
 #welcome-1 {
