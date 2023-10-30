@@ -18,6 +18,7 @@ body {
 .welcome {
     background-color: #F6332B;
     border: 1px solid white;
+    color: #FFFFFF;
     padding: 0.5em 0em;
     user-select: none;
     text-align: center;
@@ -26,12 +27,12 @@ body {
 
 #welcome-1 {
     font-size: 3rem;
-    color: #77CDFF;
+    background-color: #1D3557;
 }
 
 #welcome-2 {
     font-size: 2rem;
-    color: #002680;
+    background-color: #457B9D;
 }
 
 .activitiy-list {
