@@ -4,7 +4,7 @@ body {
 }
 
 .hero {
-    background-image: url(./images/Donggongon.jpg);
+    background-image: url(images/torshov-image.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -14,15 +14,6 @@ body {
     height: 75vh;
     border: 1px solid black;
 }
-
-/* Colours of the Flag of Sabah */
-/* Retrieved from the website SchemeColor.com */
-/* https://www.schemecolor.com/sabah-flag-colors.php */
-/* Maya Blue (#77CDFF) */
-/* Resolution Blue (#002680) */
-/* Blue Cola (#0085D7) */
-/* White (#FFFFFF) */
-/* Deep Carmine Pink (#F6332B) */
 
 .welcome {
     background-color: #F6332B;
