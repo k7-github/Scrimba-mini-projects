@@ -35,7 +35,7 @@ body {
     background-color: #457B9D;
 }
 
-.activitiy-list {
+.activity-list {
     display: flex;
     justify-content: space-around;
     align-items: center;
