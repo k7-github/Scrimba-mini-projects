@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url(./images/Donggongon.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+    border: 1px solid black;
+}
+
+/* Colours of the Flag of Sabah */
+/* Retrieved from the website SchemeColor.com */
+/* https://www.schemecolor.com/sabah-flag-colors.php */
+/* Maya Blue (#77CDFF) */
+/* Resolution Blue (#002680) */
+/* Blue Cola (#0085D7) */
+/* White (#FFFFFF) */
+/* Deep Carmine Pink (#F6332B) */
+
+.welcome {
+    background-color: #F6332B;
+    border: 1px solid white;
+    padding: 0.5em 0em;
+    user-select: none;
+    text-align: center;
+    width: 20em;
+}
+
+#welcome-1 {
+    font-size: 3rem;
+    color: #77CDFF;
+}
+
+#welcome-2 {
+    font-size: 2rem;
+    color: #002680;
+}
+
+.activitiy-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    border: 1px solid black;
+    
+}
+
+.guide {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.card {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em auto;
+    padding: 1em;
+    border: 1px solid black;
+}
+
+.guide-pic {
+    width: 55%;
+    align-self: center;
+}
+
+.guide-details {
+    width: 45%;
+}
