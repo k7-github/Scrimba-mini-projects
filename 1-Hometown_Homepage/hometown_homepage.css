@@ -1,6 +1,7 @@
 body {
     margin: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .hero {
@@ -16,12 +17,10 @@ body {
 }
 
 .welcome {
-    background-color: #F6332B;
     border: 1px solid white;
     color: #FFFFFF;
     padding: 0.5em 0em;
     user-select: none;
-    text-align: center;
     width: 20em;
 }
 
@@ -30,9 +29,33 @@ body {
     background-color: #1D3557;
 }
 
+/* VISIT TORSHOV */
+
+/* Layout */
+/* width: 201px; */
+/* height: 34px; */
+/* flex-shrink: 0; */
+
+/* Typography */
+/* color: #FFF; */
+/* text-align: center; */
+/* font-family: Arial; */
+/* font-size: 32px; */
+/* font-style: normal; */
+/* font-weight: 700; */
+/* line-height: normal; */
+
 #welcome-2 {
     font-size: 2rem;
     background-color: #457B9D;
+}
+
+.activities {
+    background-color: #F1FAEE;
+}
+
+.top-three {
+    color: #1D3557;
 }
 
 .activity-list {
@@ -51,7 +74,6 @@ body {
 }
 
 .guide {
-    text-align: center;
     width: 100%;
     height: auto;
     border: 1px solid black;
