@@ -16,6 +16,15 @@ body {
     border: 1px solid black;
 }
 
+/* Torshov Background Image */
+/* Image Layout */
+/* width: 720px; */
+/* height: 343px; */
+/* flex-shrink: 0; */
+
+/* Image Style */
+/* background: url(<path-to-image>), lightgray -2.446px -5.91px / 101.181% 136.247% no-repeat; */
+
 .welcome {
     border: 1px solid white;
     color: #FFFFFF;
@@ -31,7 +40,16 @@ body {
 
 /* VISIT TORSHOV */
 
-/* Layout */
+/* Box Layout */
+/* width: 225px; */
+/* height: 42px; */
+/* flex-shrink: 0; */
+
+/* Box Style */
+/* border-radius: 10px; */
+/* background: #1D3557; */
+
+/* Text Layout */
 /* width: 201px; */
 /* height: 34px; */
 /* flex-shrink: 0; */
@@ -49,6 +67,31 @@ body {
     font-size: 2rem;
     background-color: #457B9D;
 }
+
+/* "Enjoy culture and sports ..." */
+
+/* Box Layout */
+/* width: 412px; */
+/* height: 52px; */
+/* flex-shrink: 0; */
+
+/* Box Style */
+/* border-radius: 10px; */
+/* background: #457B9D; */
+
+/* Text Layout */
+/* width: 355px; */
+/* height: 39px; */
+/* flex-shrink: 0; */
+
+/* Typography */
+/* color: #FFF; */
+/* text-align: center; */
+/* font-family: Arial; */
+/* font-size: 18.72px; */
+/* font-style: normal; */
+/* font-weight: 700; */
+/* line-height: normal; */
 
 .activities {
     background-color: #F1FAEE;
