@@ -4,7 +4,7 @@ body {
 }
 
 .hero {
-    background-image: url(images/torshov-image.png);
+    background-image: url("./images/torshov.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -43,6 +43,11 @@ body {
     height: 40vh;
     border: 1px solid black;
     
+}
+
+.act-img {
+    width: 100px;
+    border-radius: 100%;
 }
 
 .guide {
