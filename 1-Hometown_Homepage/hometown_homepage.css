@@ -4,6 +4,11 @@ body {
     text-align: center;
 }
 
+/* font-family: Arial; */
+/* font-style: normal; */
+/* font-weight: 700; */
+/* line-height: normal; */
+
 .hero {
     background-image: url("./images/torshov.jpg");
     background-size: cover;
@@ -25,7 +30,7 @@ body {
 /* Image Style */
 /* background: url(<path-to-image>), lightgray -2.446px -5.91px / 101.181% 136.247% no-repeat; */
 
-.welcome {
+.hero-text {
     border: 1px solid white;
     color: #FFFFFF;
     padding: 0.5em 0em;
@@ -33,7 +38,12 @@ body {
     width: 20em;
 }
 
-#welcome-1 {
+/* .hero-text */
+/* border-radius: 10px; */
+/* flex-shrink: 0; */
+/* color: #FFF; */
+
+#hero-text-1 {
     font-size: 3rem;
     background-color: #1D3557;
 }
@@ -63,7 +73,7 @@ body {
 /* font-weight: 700; */
 /* line-height: normal; */
 
-#welcome-2 {
+#hero-text-2 {
     font-size: 2rem;
     background-color: #457B9D;
 }
