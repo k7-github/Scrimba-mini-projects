@@ -19,6 +19,7 @@
     --AQUA: #A8DADC;
     --LIGHT-BLUE: #457B9D;
     --DARK-BLUE: #1D3557;
+    --WHITE: #FFF;
 }
 
 html {
@@ -50,7 +51,7 @@ html {
 
 .hero-text {
     border: 1px solid white;
-    color: #FFFFFF;
+    color: var(--WHITE);
     padding: 0.5em 0em;
     user-select: none;
     width: 20em;
