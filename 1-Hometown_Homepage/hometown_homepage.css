@@ -13,6 +13,14 @@
 /* Read "all vs root vs html vs body selectors" by Timonwa's Notes */
 /* https://blog.timonwa.com/all-vs-root-vs-html-vs-body-selectors */
 
+:root {
+    --RED: #E63946;
+    --LIGHT: #F1FAEE;
+    --AQUA: #A8DADC;
+    --LIGHT-BLUE: #457B9D;
+    --DARK-BLUE: #1D3557;
+}
+
 html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -55,7 +63,7 @@ html {
 
 #hero-text-1 {
     font-size: 2rem;
-    background-color: #1D3557;
+    background-color: var(--DARK-BLUE);
 }
 
 /* VISIT TORSHOV */
@@ -85,7 +93,7 @@ html {
 
 #hero-text-2 {
     font-size: 2rem;
-    background-color: #457B9D;
+    background-color: var(--LIGHT-BLUE);
 }
 
 /* "Enjoy culture and sports ..." */
@@ -114,7 +122,7 @@ html {
 /* line-height: normal; */
 
 .activities {
-    background-color: #F1FAEE;
+    background-color: var(--LIGHT);
 }
 
 /* Activities Section */
@@ -128,7 +136,7 @@ html {
 
 
 .top-three {
-    color: #1D3557;
+    color: var(--DARK-BLUE);
 }
 
 /* Top three activities to do at Torshov */
