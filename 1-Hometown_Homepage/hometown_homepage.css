@@ -228,11 +228,71 @@ body {
     border: 1px solid black;
 }
 
+/* Layout */
+/* width: 400px; */
+/* height: 294px; */
+/* flex-shrink: 0; */
+
+/* Style */
+/* border-radius: 10px; */
+/* background: #A8DADC; */
+/* box-shadow: 0px 6px 0px 0px #1D3557; */
+
 .guide-pic {
     width: 55%;
     align-self: center;
 }
 
+/* Layout */
+/* width: 180px; */
+/* height: 248.667px; */
+/* flex-shrink: 0; */
+
 .guide-details {
     width: 45%;
 }
+
+/* Your Guide */
+/* Layout */
+/* width: 207px; */
+/* height: 32px; */
+/* flex-shrink: 0; */
+
+/* Typography */
+/* color: #1D3557; */
+/* text-align: center; */
+/* font-family: Arial; */
+/* font-size: 24px; */
+/* font-style: normal; */
+/* font-weight: 700; */
+/* line-height: normal; */
+
+/* I have lived at Torshov ... */
+/* Layout */
+/* width: 189px; */
+/* height: 71px; */
+/* flex-shrink: 0; */
+
+/* Typography */
+/* color: #1D3557; */
+/* text-align: center; */
+/* font-family: Arial; */
+/* font-size: 16px; */
+/* font-style: italic; */
+/* font-weight: 400; */
+/* line-height: normal; */
+
+/* Per Harald Borgen */
+/* Layout */
+/* width: 189px; */
+/* height: 18px; */
+/* flex-shrink: 0; */
+
+/* Typography */
+/* color: #1D3557; */
+/* text-align: center; */
+/* font-family: Arial; */
+/* font-size: 16px; */
+/* font-style: normal; */
+/* font-weight: 700; */
+/* line-height: normal; */
