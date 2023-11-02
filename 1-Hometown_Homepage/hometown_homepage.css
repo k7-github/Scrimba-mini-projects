@@ -1,10 +1,6 @@
 * {
     border: 1px solid black;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    line-height: normal;
     margin: 0;
     text-align: center;
 }
@@ -16,6 +12,13 @@
 
 /* Read "all vs root vs html vs body selectors" by Timonwa's Notes */
 /* https://blog.timonwa.com/all-vs-root-vs-html-vs-body-selectors */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+}
 
 .hero {
     background-image: url("./images/torshov.jpg");
@@ -51,7 +54,7 @@
 /* color: #FFF; */
 
 #hero-text-1 {
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: #1D3557;
 }
 
