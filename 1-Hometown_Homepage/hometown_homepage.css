@@ -14,6 +14,9 @@
 /* font-weight: 700; */
 /* line-height: normal; */
 
+/* Read "all vs root vs html vs body selectors" by Timonwa's Notes */
+/* https://blog.timonwa.com/all-vs-root-vs-html-vs-body-selectors */
+
 .hero {
     background-image: url("./images/torshov.jpg");
     background-size: cover;
