@@ -171,6 +171,10 @@ html {
     border-radius: 100%;
 }
 
+.act-details {
+    font-weight: 400;
+}
+
 /* Theatre child container*/
 /* Layout */
 /* width: 198px; */
@@ -238,7 +242,7 @@ html {
     height: auto;
 }
 
-.card {
+.guide-card {
     background-color: var(--AQUA);
     border-radius: 10px;
     width: 50%;
@@ -276,7 +280,7 @@ html {
 
 .guide-quote {
     font-style: italic;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 /* Your Guide */
