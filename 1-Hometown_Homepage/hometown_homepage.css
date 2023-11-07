@@ -64,8 +64,10 @@ html {
 /* color: #FFF; */
 
 #hero-text-1 {
-    font-size: 2rem;
     background-color: var(--DARK-BLUE);
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+    padding: 0.125em 0.375em;
 }
 
 /* VISIT TORSHOV */
@@ -94,8 +96,9 @@ html {
 /* line-height: normal; */
 
 #hero-text-2 {
-    font-size: 1.17rem;
     background-color: var(--LIGHT-BLUE);
+    font-size: 1.17rem;
+    padding: 0.35em 1.52em;
 }
 
 /* "Enjoy culture and sports ..." */
