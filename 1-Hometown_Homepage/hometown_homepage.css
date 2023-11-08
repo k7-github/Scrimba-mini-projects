@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     box-sizing: border-box;
     /* flex-shrink: 0; */
     margin: 0;
@@ -268,8 +268,10 @@ html {
     height: 294px;
     display: flex;
     justify-content: space-evenly;
-    margin: 1em auto;
-    padding: 1em;
+    /* margin: 1em auto; */
+    margin: 50px 160px;
+    /* padding: 1em; */
+    padding: 23px 13px;
     box-shadow: 0px 6px 0px 0px var(--DARK-BLUE);
 }
 
@@ -285,8 +287,10 @@ html {
 
 .guide-pic {
     border-radius: 10px;
-    width: 55%;
-    align-self: center;
+    /* width: 55%; */
+    /* align-self: center; */
+    width: 180px;
+    height: 248.667px;
 }
 
 /* Layout */
@@ -295,7 +299,7 @@ html {
 /* flex-shrink: 0; */
 
 .guide-details {
-    width: 45%;
+    /* width: 45%; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -303,11 +307,21 @@ html {
 
 .guide-intro {
     font-size: 1.5rem;
+    width: 207px;
+    height: 32px;
 }
 
 .guide-quote {
     font-style: italic;
     font-weight: 400;
+    width: 189px;
+    height: 71px;
+}
+
+.guide-name {
+    width: 189px;
+    height: 18px;
+    
 }
 
 /* Your Guide */
