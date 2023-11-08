@@ -53,7 +53,7 @@ html {
 /* background: url(<path-to-image>), lightgray -2.446px -5.91px / 101.181% 136.247% no-repeat; */
 
 .hero-text {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 10px;
     color: var(--WHITE);
     user-select: none;
@@ -103,6 +103,8 @@ html {
     font-size: 18.72px;
     padding: 5px 29px 8px 28px;
     /* padding: 0.35em 1.52em; */
+    width: 412px;
+    height: 52px;
 }
 
 /* "Enjoy culture and sports ..." */
@@ -149,6 +151,10 @@ html {
 
 .top-three {
     font-size: 24px;
+    width: 439px;
+    height: 20px;
+    margin: auto;
+    padding: 39px 0px 54px 0px;
 }
 
 /* Top three activities to do at Torshov */
