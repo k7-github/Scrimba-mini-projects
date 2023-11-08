@@ -32,6 +32,8 @@ html {
     line-height: normal;
 }
 
+
+/* THE HERO SECTION */
 .hero {
     background-image: url("./images/torshov.jpg");
     background-size: cover;
@@ -43,14 +45,6 @@ html {
     height: 343px;
 }
 
-/* Torshov Background Image */
-/* Image Layout */
-/* width: 720px; */
-/* height: 343px; */
-/* flex-shrink: 0; */
-
-/* Image Style */
-/* background: url(<path-to-image>), lightgray -2.446px -5.91px / 101.181% 136.247% no-repeat; */
 
 .hero-text {
     /* border: 1px solid white; */
@@ -72,31 +66,6 @@ html {
     padding: 3px 12px 5px 12px; /*0.125em 0.375em*/
 }
 
-/* VISIT TORSHOV */
-
-/* Box Layout */
-/* width: 225px; */
-/* height: 42px; */
-/* flex-shrink: 0; */
-
-/* Box Style */
-/* border-radius: 10px; */
-/* background: #1D3557; */
-
-/* Text Layout */
-/* width: 201px; */
-/* height: 34px; */
-/* flex-shrink: 0; */
-
-/* Typography */
-/* color: #FFF; */
-/* text-align: center; */
-/* font-family: Arial; */
-/* font-size: 32px; */
-/* font-style: normal; */
-/* font-weight: 700; */
-/* line-height: normal; */
-
 #hero-text-2 {
     background-color: var(--LIGHT-BLUE);
     /* font-size: 1.17rem; */
@@ -107,47 +76,13 @@ html {
     height: 52px;
 }
 
-/* "Enjoy culture and sports ..." */
-
-/* Box Layout */
-/* width: 412px; */
-/* height: 52px; */
-/* flex-shrink: 0; */
-
-/* Box Style */
-/* border-radius: 10px; */
-/* background: #457B9D; */
-
-/* Text Layout */
-/* width: 355px; */
-/* height: 39px; */
-/* flex-shrink: 0; */
-
-/* Typography */
-/* color: #FFF; */
-/* text-align: center; */
-/* font-family: Arial; */
-/* font-size: 18.72px; */
-/* font-style: normal; */
-/* font-weight: 700; */
-/* line-height: normal; */
-
+/* THE ACTIVITIES SECTION */
 .activities {
     background-color: var(--LIGHT);
     width: 720px;
     height: 378px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-
-/* Activities Section */
-/* Layout */
-/* width: 720px; */
-/* height: 378px; */
-
-/* Style */
-/* background: #F1FAEE; */
-/* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
-
 
 .top-three {
     font-size: 24px;
@@ -156,21 +91,6 @@ html {
     margin: auto;
     padding: 39px 0px 54px 0px;
 }
-
-/* Top three activities to do at Torshov */
-/* Layout */
-/* width: 439px; */
-/* height: 20px; */
-/* flex-shrink: 0; */
-
-/* Typography */
-/* color: #1D3557; */
-/* text-align: center; */
-/* font-family: Arial; */
-/* font-size: 24px; */
-/* font-style: normal; */
-/* font-weight: 700; */
-/* line-height: normal; */
 
 .activity-list {
     display: flex;
@@ -181,77 +101,35 @@ html {
     
 }
 
+/* .activity */
+/* #no-1 */
+/* #no-2 */
+/* #no-3 */
+
 .act-img {
     width: 100px;
     border-radius: 100%;
 }
 
+/* #img-1 */
+/* #img-2 */
+/* #img-3 */
+
+/* .act-name */
+/* #name-1 */
+/* #name-2 */
+/* #name-3 */
+
 .act-details {
     font-weight: 400;
 }
 
-/* Theatre child container*/
-/* Layout */
-/* width: 198px; */
-/* height: 226px; */
-/* flex-shrink: 0; */
+/* #detail-1 */
+/* #detail-2 */
+/* #detail-3 */
 
-/* Theatre Image Group */
-/* Layout */
-/* width: 100px; */
-/* height: 100px; */
-/* flex-shrink: 0; */
 
-/* Contains Ellipse 1 and theatre image */
-
-/* Ellipse 1 */
-/* Layout */
-/* width: 100px; */
-/* height: 100px; */
-/* flex-shrink: 0; */
-
-/* Style */
-/* fill: #C4C4C4; */
-
-/* theatre image */
-/* Layout */
-/* width: 100px; */
-/* height: 99.338px; */
-/* flex-shrink: 0; */
-
-/* Style */
-/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
-
-/* Attend a show or a concert */
-/* Layout */
-/* width: 183px; */
-/* height: 32px; */
-/* flex-shrink: 0; */
-
-/* Typography */
-/* color: #1D3557; */
-/* text-align: center; */
-/* font-family: Arial; */
-/* font-size: 16px; */
-/* font-style: normal; */
-/* font-weight: 700; */
-/* line-height: normal; */
-
-/* The Torshov Theatre is a great place to spend your night out. */
-/* Layout */
-/* width: 198px; */
-/* height: 55px; */
-/* flex-shrink: 0; */
-
-/* Typography */
-/* color: #1D3557; */
-/* text-align: center; */
-/* font-family: Arial; */
-/* font-size: 16px; */
-/* font-style: normal; */
-/* font-weight: 400; */
-/* line-height: normal; */
-
+/* THE GUIDE SECTION */
 .guide {
     /* width: 100%; */
     width: 720px;
@@ -275,16 +153,6 @@ html {
     box-shadow: 0px 6px 0px 0px var(--DARK-BLUE);
 }
 
-/* Layout */
-/* width: 400px; */
-/* height: 294px; */
-/* flex-shrink: 0; */
-
-/* Style */
-/* border-radius: 10px; */
-/* background: #A8DADC; */
-/* box-shadow: 0px 6px 0px 0px #1D3557; */
-
 .guide-pic {
     border-radius: 10px;
     /* width: 55%; */
@@ -292,11 +160,6 @@ html {
     width: 180px;
     height: 248.667px;
 }
-
-/* Layout */
-/* width: 180px; */
-/* height: 248.667px; */
-/* flex-shrink: 0; */
 
 .guide-details {
     /* width: 45%; */
@@ -323,48 +186,3 @@ html {
     height: 18px;
     
 }
-
-/* Your Guide */
-/* Layout */
-/* width: 207px; */
-/* height: 32px; */
-/* flex-shrink: 0; */
-
-/* Typography */
-/* color: #1D3557; */
-/* text-align: center; */
-/* font-family: Arial; */
-/* font-size: 24px; */
-/* font-style: normal; */
-/* font-weight: 700; */
-/* line-height: normal; */
-
-/* I have lived at Torshov ... */
-/* Layout */
-/* width: 189px; */
-/* height: 71px; */
-/* flex-shrink: 0; */
-
-/* Typography */
-/* color: #1D3557; */
-/* text-align: center; */
-/* font-family: Arial; */
-/* font-size: 16px; */
-/* font-style: italic; */
-/* font-weight: 400; */
-/* line-height: normal; */
-
-/* Per Harald Borgen */
-/* Layout */
-/* width: 189px; */
-/* height: 18px; */
-/* flex-shrink: 0; */
-
-/* Typography */
-/* color: #1D3557; */
-/* text-align: center; */
-/* font-family: Arial; */
-/* font-size: 16px; */
-/* font-style: normal; */
-/* font-weight: 700; */
-/* line-height: normal; */
