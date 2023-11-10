@@ -65,14 +65,15 @@ body {
     font-size: 2rem;
     /* font-size: 32px; */
     margin-bottom: 11px;
-    /*margin-bottom: 11/32 em*/
+    /*margin-bottom: 0.34 em*/
+    /*margin-bottom: 0.69 rem*/
     padding: 3px 12px 5px 12px; /*0.125em 0.375em*/
 }
 
 #hero-text-2 {
     background-color: var(--LIGHT-BLUE);
-    /* font-size: 1.17rem; */
-    font-size: 18.72px;
+    font-size: 1.17rem;
+    /* font-size: 18.72px; */
     padding: 5px 29px 8px 28px;
     /* padding: 0.35em 1.52em; */
     width: 412px;
@@ -195,13 +196,15 @@ body {
 }
 
 .guide-quote {
-    font-style: italic;
+    font-size: 1rem;
+    font-style: italic;    
     font-weight: 400;
     width: 189px;
     height: 71px;
 }
 
 .guide-name {
+    font-size: 1rem;
     width: 189px;
     height: 18px;
     
