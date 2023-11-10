@@ -62,9 +62,10 @@ body {
 
 #hero-text-1 {
     background-color: var(--DARK-BLUE);
-    /* font-size: 2rem; */
-    font-size: 32px;
-    margin-bottom: 11px; /* 11/32 em*/
+    font-size: 2rem;
+    /* font-size: 32px; */
+    margin-bottom: 11px;
+    /*margin-bottom: 11/32 em*/
     padding: 3px 12px 5px 12px; /*0.125em 0.375em*/
 }
 
