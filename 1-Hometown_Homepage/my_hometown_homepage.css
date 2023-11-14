@@ -24,7 +24,7 @@ body {
 /* White (#FFFFFF) */
 /* Deep Carmine Pink (#F6332B) */
 
-.welcome {
+.hero-text {
     background-color: #F6332B;
     border: 1px solid white;
     padding: 0.5em 0em;
@@ -33,12 +33,12 @@ body {
     width: 20em;
 }
 
-#welcome-1 {
+#hero-text-1 {
     font-size: 3rem;
     color: #77CDFF;
 }
 
-#welcome-2 {
+#hero-text-2 {
     font-size: 2rem;
     color: #002680;
 }
@@ -60,7 +60,7 @@ body {
     border: 1px solid black;
 }
 
-.card {
+.guide-card {
     width: 50%;
     display: flex;
     justify-content: space-evenly;
