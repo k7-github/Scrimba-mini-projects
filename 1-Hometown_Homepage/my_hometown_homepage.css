@@ -1,6 +1,37 @@
-body {
-    margin: 0;
+* {
+    border: 1px solid black;
     box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --M-BLUE: #77CDFF;
+    --R-BLUE: #002680;
+    --BLUE-COLA: #0085D7;
+    --WHITE: #FFFFFF;
+    --D-C-PINK: #F6332B;
+}
+/* Maya Blue (#77CDFF) */
+/* Resolution Blue (#002680) */
+/* Blue Cola (#0085D7) */
+/* White (#FFFFFF) */
+/* Deep Carmine Pink (#F6332B) */
+/* Colours of the Flag of Sabah */
+/* Retrieved from the website SchemeColor.com */
+/* https://www.schemecolor.com/sabah-flag-colors.php */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    /* color: var(--DARK-BLUE); */
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .hero {
@@ -10,22 +41,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 75vh;
-    border: 1px solid black;
+    width: 720px;
+    height: 343px;
 }
 
-/* Colours of the Flag of Sabah */
-/* Retrieved from the website SchemeColor.com */
-/* https://www.schemecolor.com/sabah-flag-colors.php */
-/* Maya Blue (#77CDFF) */
-/* Resolution Blue (#002680) */
-/* Blue Cola (#0085D7) */
-/* White (#FFFFFF) */
-/* Deep Carmine Pink (#F6332B) */
 
 .hero-text {
-    background-color: #F6332B;
+    background-color: var(--D-C-PINK);
     border: 1px solid white;
     padding: 0.5em 0em;
     user-select: none;
@@ -34,13 +56,21 @@ body {
 }
 
 #hero-text-1 {
-    font-size: 3rem;
-    color: #77CDFF;
+    font-size: 2rem;
+    /* font-size: 32px; */
+    margin-bottom: 11px;
+    /*margin-bottom: 0.34 em*/
+    /*margin-bottom: 0.69 rem*/
+    padding: 3px 12px 5px 12px; /*0.125em 0.375em*/
 }
 
 #hero-text-2 {
-    font-size: 2rem;
-    color: #002680;
+    font-size: 1.17rem;
+    /* font-size: 18.72px; */
+    padding: 5px 29px 8px 28px;
+    /* padding: 0.35em 1.52em; */
+    width: 412px;
+    height: 52px;
 }
 
 .activities {
@@ -49,7 +79,6 @@ body {
     align-items: center;
     width: 100%;
     height: 40vh;
-    border: 1px solid black;
     
 }
 
@@ -57,7 +86,6 @@ body {
     text-align: center;
     width: 100%;
     height: auto;
-    border: 1px solid black;
 }
 
 .guide-card {
@@ -66,7 +94,6 @@ body {
     justify-content: space-evenly;
     margin: 1em auto;
     padding: 1em;
-    border: 1px solid black;
 }
 
 .guide-pic {
