@@ -81,10 +81,10 @@ body {
 
 .top-three {
     font-size: 1.5rem;
-    width: 439px;
-    height: 20px;
+    width: auto;
+    height: auto;
     margin: auto;
-    padding: 39px 0px 54px 0px;
+    padding: 40px 0px 50px 0px;
 }
 
 .activity-list {
