@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: auto;
     user-select: none;
-    width: 720px;
+    width: 1080px;
 }
 
 :root {
@@ -124,7 +124,8 @@ body {
 
 .act-name {
     font-size: 1rem;
-    width: 200px;
+    /* width: 200px; */
+    width: 90%;
     height: 40px;
 }
 
@@ -135,7 +136,8 @@ body {
 .act-details {
     font-size: 1rem; 
     font-weight: 400;
-    width: 198px;
+    /* width: 198px; */
+    width: 90%;
     height: 55px;
 }
 
@@ -161,8 +163,8 @@ body {
     height: 294px;
     display: flex;
     justify-content: space-evenly;
-    /* margin: 1em auto; */
-    margin: 50px 160px;
+    margin: 5em auto;
+    /* margin: 50px 160px; */
     /* padding: 1em; */
     padding: 23px 13px;
     box-shadow: 0px 6px 0px 0px var(--BLUE-COLA);
@@ -182,6 +184,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    width: 215px;
     height: 248.667px;
 }
 
