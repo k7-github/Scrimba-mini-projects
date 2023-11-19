@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: auto;
     user-select: none;
+    width: 720px;
 }
 
 :root {
@@ -33,10 +34,6 @@ body {
     color: var(--WHITE);
 }
 
-.no-shrink {
-    flex-shrink: 0;
-}
-
 /* HERO SECTION */
 .hero {
     background-image: url(./images/Donggongon.jpg);
@@ -45,7 +42,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 720px;
+    /* width: 720px; */
     height: 343px;
 }
 
@@ -81,7 +78,7 @@ body {
 /* ACTIVITIES SECTION */
 .activities {
     background-color: var(--BLUE-COLA);
-    width: 720px;
+    /* width: 720px; */
     height: 378px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -150,7 +147,7 @@ body {
 /* GUIDE SECTION */
 .guide {
     /* width: 100%; */
-    width: 720px;
+    /* width: 720px; */
     /* height: auto; */
     height: 394px;
     background-color: var(--WHITE);
