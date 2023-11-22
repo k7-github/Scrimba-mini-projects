@@ -109,12 +109,18 @@ body {
     height: 100%;
 }
 
+.activity:hover {
+    background-color: var(--D-C-PINK);
+    color: var(--R-BLUE);
+    border: 2px solid var(--R-BLUE);
+}
+
 /* #no-1 */
 /* #no-2 */
 /* #no-3 */
 
 .act-img {
-    border: 1px solid var(--D-C-PINK);
+    border: 1px solid var(--WHITE);
     border-radius: 100%;
     font-weight: 400;
     height: 100px;
