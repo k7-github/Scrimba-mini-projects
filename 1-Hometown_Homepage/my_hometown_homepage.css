@@ -121,6 +121,7 @@ body {
 /* #no-3 */
 
 .act-img {
+    background-size: cover;
     border: 1px solid var(--WHITE);
     border-radius: 100%;
     font-weight: 400;
