@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: auto;
     user-select: none;
-    width: 1080px;
+    /* width: 1080px; */
 }
 
 :root {
@@ -34,6 +34,11 @@ body {
     color: var(--WHITE);
 }
 
+.main-section {
+    height: 400px;
+    width: 1080px;
+}
+
 /* HERO SECTION */
 .hero {
     background-image: url(./my_hometown_homepage_images/South_View_3.1.jpg);
@@ -43,7 +48,7 @@ body {
     justify-content: center;
     align-items: center;
     /* width: 720px; */
-    height: 400px;
+    /* height: 400px; */
     /* aspect-ratio: 2; */
 }
 
@@ -80,7 +85,7 @@ body {
 .activities {
     background-color: var(--BLUE-COLA);
     /* width: 720px; */
-    height: 400px;
+    /* height: 400px; */
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -162,7 +167,7 @@ body {
     /* width: 100%; */
     /* width: 720px; */
     /* height: auto; */
-    height: 400px;
+    /* height: 400px; */
     background-color: var(--WHITE);
 }
 
