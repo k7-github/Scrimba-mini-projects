@@ -1,0 +1,27 @@
+HTML:
+
+Hero Section
+
+Background image
+
+Visit [Hometown Name] / Welcome to [Hometown Name].
+
+1 detail about [Hometown Name]
+
+Activities Section
+
+List 3 activities for tourists to do in [Hometown Name].
+
+Each activity must include an image, its name, and some minor details.
+
+Guide Section
+
+Profile picture of the guide
+
+The text [Your Guide]
+
+Quote from the guide.
+
+Guide's name.
+
+CSS:
