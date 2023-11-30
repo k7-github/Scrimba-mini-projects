@@ -8,6 +8,26 @@
     <script src="unit_converter.js"></script>
 </head>
 <body>
-    
+    <section class="main-section" id="unit-conversion">
+        <h1 id="title">Metric/Imperial Unit Conversion</h1>
+        <input type="number" id="add-number" placeholder="Add Number Here"/>
+        <button id="convert">Convert</button>
+    </section>
+    <section class="main-section" id="converted-units">
+        <div id="unit-container">
+            <div class="units">
+                <h2 class="unit" id="length">Length (Meter/Feet)</h2>
+                <p class="formulae" id="meters-feet"></p>
+            </div>
+            <div class="units">
+                <h2 class="unit" id="volume">Volume (Liters/Gallons)</h2>
+                <p class="formulae" id="liters-gallons"></p>
+            </div>
+            <div class="units">
+                <h2 class="unit" id="mass">Mass (Kilograms/Pounds)</h2>
+                <p class="formulae" id="kilograms-pounds"></p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
