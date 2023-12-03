@@ -1,4 +1,4 @@
-let num = 0
+let num = 10
 const addNumber = document.getElementById("add-number")
 const convertBtn = document.getElementById("convert")
 const initialValue = document.getElementsByClassName("initial-value")
@@ -17,14 +17,14 @@ const kilogramValue = document.getElementById("kilograms")
 // const kilogram = num.valueOf * 0.454
 
 convertBtn.addEventListener("click", function() {
-    num = addNumber
-    // initialValue.value = num
-    // feetValue.value = num.value * 3.281
-    // meterValue.value = num.value * 0.305
-    // gallonValue.value = num.value * 0.264
-    // literValue.value = num.value * 3.785
-    // poundValue.value = num.value * 2.204
-    // kilogramValue.value = num.value * 0.454
+    // num = addNumber
+    initialValue.textContent = num
+    feetValue.textContent = num * 3.281
+    meterValue.textContent = num * 0.305
+    gallonValue.textContent = num * 0.264
+    literValue.textContent = num * 3.785
+    poundValue.textContent = num * 2.204
+    kilogramValue.textContent = num * 0.454
     console.log("Is is working?")
-    console.log(num)
+    console.log(initialValue.textContent)
 })
