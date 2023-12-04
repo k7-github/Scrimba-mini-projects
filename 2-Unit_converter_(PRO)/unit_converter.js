@@ -17,15 +17,17 @@ const convertBtn = document.getElementById("convert")
 // const kilogram = num.valueOf * 0.454
 
 convertBtn.addEventListener("click", function() {
-    let initialVal = document.getElementsByClassName("initial-value")
+    const initialVal = document.getElementsByClassName("initial-value")
     num = addNumberEl.value
-    initialVal.textContent = num
+    initialVal.textContent = "10"
     // feetVal = num * 3.281
     // meterVal = num * 0.305
     // gallonVal = num * 0.264
     // literVal = num * 3.785
     // poundVal = num * 2.204
     // kilogramVal = num * 0.454
+    let feetVal = document.getElementById("feet")
+    feetVal.textContent = "123"
     console.log("Is is working?")
-    console.log(num)
+    console.log(initialVal.textContent)
 })
