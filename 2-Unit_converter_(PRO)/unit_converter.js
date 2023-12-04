@@ -1,13 +1,13 @@
-let num = 10
-const addNumber = document.getElementById("add-number")
+let num = 0
+const addNumberEl = document.getElementById("add-number")
 const convertBtn = document.getElementById("convert")
-const initialValue = document.getElementsByClassName("initial-value")
-const feetValue = document.getElementById("feet")
-const meterValue = document.getElementById("meters")
-const gallonValue = document.getElementById("gallons")
-const literValue = document.getElementById("liters")
-const poundValue = document.getElementById("pounds")
-const kilogramValue = document.getElementById("kilograms")
+let initialVal = document.getElementsByClassName("initial-value").textContent
+let feetVal = document.getElementById("feet").textContent
+let meterVal = document.getElementById("meters").textContent
+let gallonVal = document.getElementById("gallons").textContent
+let literVal = document.getElementById("liters").textContent
+let poundVal = document.getElementById("pounds").textContent
+let kilogramVal = document.getElementById("kilograms").textContent
 
 // const feet = num.valueOf * 3.281
 // const meter = num.valueOf * 0.305
@@ -17,14 +17,14 @@ const kilogramValue = document.getElementById("kilograms")
 // const kilogram = num.valueOf * 0.454
 
 convertBtn.addEventListener("click", function() {
-    // num = addNumber
-    initialValue.textContent = num
-    feetValue.textContent = num * 3.281
-    meterValue.textContent = num * 0.305
-    gallonValue.textContent = num * 0.264
-    literValue.textContent = num * 3.785
-    poundValue.textContent = num * 2.204
-    kilogramValue.textContent = num * 0.454
+    num = addNumberEl.value
+    initialVal = num
+    feetVal = num * 3.281
+    meterVal = num * 0.305
+    gallonVal = num * 0.264
+    literVal = num * 3.785
+    poundVal = num * 2.204
+    kilogramVal = num * 0.454
     console.log("Is is working?")
-    console.log(initialValue.textContent)
+    console.log(num)
 })
