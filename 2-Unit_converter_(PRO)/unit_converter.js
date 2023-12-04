@@ -1,33 +1,61 @@
-let num = 0
+let baseVal = 0
 const addNumberEl = document.getElementById("add-number")
 const convertBtn = document.getElementById("convert")
-// let initialVal = document.getElementsByClassName("initial-value").textContent
-// let feetVal = document.getElementById("feet").textContent
-// let meterVal = document.getElementById("meters").textContent
-// let gallonVal = document.getElementById("gallons").textContent
-// let literVal = document.getElementById("liters").textContent
-// let poundVal = document.getElementById("pounds").textContent
-// let kilogramVal = document.getElementById("kilograms").textContent
-
-// const feet = num.valueOf * 3.281
-// const meter = num.valueOf * 0.305
-// const gallon = num.valueOf * 0.264
-// const liter = num.valueOf * 3.785
-// const pound = num.valueOf * 2.204
-// const kilogram = num.valueOf * 0.454
 
 convertBtn.addEventListener("click", function() {
-    const initialVal = document.getElementsByClassName("initial-value")
-    num = addNumberEl.value
-    initialVal.textContent = "10"
-    // feetVal = num * 3.281
-    // meterVal = num * 0.305
-    // gallonVal = num * 0.264
-    // literVal = num * 3.785
-    // poundVal = num * 2.204
-    // kilogramVal = num * 0.454
-    let feetVal = document.getElementById("feet")
-    feetVal.textContent = "123"
-    console.log("Is is working?")
-    console.log(initialVal.textContent)
+    baseVal = addNumberEl.value
+    lengthConversion()
+    volumeConversion()
+    massConversion()
 })
+
+function lengthConversion() {
+    metersToFeet()
+    feetToMeters()
+}
+
+function metersToFeet() {
+    const feet = baseVal * 3.281
+    const feetEl = document.getElementById("meters-to-feet")
+    feetEl.textContent = `${baseVal} meters = ${feet.toFixed(3)} feet`
+}
+
+function feetToMeters() {
+    const meter = baseVal * 0.305
+    const meterEl = document.getElementById("feet-to-meters")
+    meterEl.textContent = `${baseVal} feet = ${meter.toFixed(3)} meters`
+}
+
+function volumeConversion() {
+    litersToGallons()
+    gallonsToLiters()
+}
+
+function litersToGallons() {
+    const gallon = baseVal * 0.264
+    const gallonEl = document.getElementById("liters-to-gallons")
+    gallonEl.textContent = `${baseVal} liters = ${gallon.toFixed(3)} gallons`
+}
+
+function gallonsToLiters() {
+    const liter = baseVal * 3.785
+    const literEl = document.getElementById("gallons-to-liters")
+    literEl.textContent = `${baseVal} gallons = ${liter.toFixed(3)} liters`
+}
+
+function massConversion() {
+    kilosToPounds()
+    poundsToKilos()
+}
+
+function kilosToPounds() {
+    const pound = baseVal * 2.204
+    const poundEl = document.getElementById("kilos-to-pounds")
+    poundEl.textContent = `${baseVal} kilograms = ${pound.toFixed(3)} pounds`
+}
+
+function poundsToKilos() {
+    const kilo = baseVal * 0.454
+    const kiloEl = document.getElementById("pounds-to-kilos")
+    kiloEl.textContent = `${baseVal} pounds = ${kilo.toFixed(3)} kilograms`
+}
