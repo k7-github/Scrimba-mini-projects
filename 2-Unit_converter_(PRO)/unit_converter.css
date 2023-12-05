@@ -1,1 +1,36 @@
 /* List of selectors in uni_converter.html */
+
+/* * {} */
+
+/* :root {} */
+
+body {
+    margin: 0;
+}
+
+.main-section {
+    margin: auto;
+}
+
+/* #unit-conversion */
+/* #title */
+/* #add-number */
+/* #convert */
+
+/* #converted-units */
+/* #unit-container */
+/* .units */
+/* .unit */
+/* #length */
+/* #volume */
+/* #mass */
+/* .formulae */
+/* #meters-feet */
+/* #liters-gallons */
+/* #kilograms-pounds */
+/* #meters-to-feet */
+/* #feet-to-meters */
+/* #liters-to-gallons */
+/* #gallons-to-liters */
+/* #kilos-to-pounds */
+/* #pounds-to-kilos */
