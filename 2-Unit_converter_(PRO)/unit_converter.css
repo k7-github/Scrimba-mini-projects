@@ -1,21 +1,65 @@
 /* List of selectors in uni_converter.html */
 
-/* * {} */
-
-/* :root {} */
-
-body {
+* {
     margin: 0;
 }
 
-.main-section {
-    margin: auto;
+/* :root {} */
+
+html {
+    text-align: center;
 }
 
-/* #unit-conversion */
-/* #title */
-/* #add-number */
-/* #convert */
+/* body {} */
+
+.main-section {
+    margin: auto;
+    width: 550px;
+}
+
+#unit-conversion {
+    background: #6943FF;
+    height: 285px;
+}
+
+#title {
+    color: #FFF;
+    width: 448.4px;
+    height: 38px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px; /* 135.714% */
+    letter-spacing: -0.84px;
+}
+
+#add-number {
+    color: #FFF;
+    width: 211px;
+    height: 51.225px;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24.393px; /* 42.057% */
+}
+
+#convert {
+    display: inline-flex;
+    padding: 9px 27.5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #FFF;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+
+    color: #3D3D3D;
+    /* text-base/leading-6/font-medium */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
 
 /* #converted-units */
 /* #unit-container */
