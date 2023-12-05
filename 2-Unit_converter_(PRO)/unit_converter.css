@@ -11,7 +11,9 @@ html {
     /* font-family: Inter; */
 }
 
-/* body {} */
+body {
+    box-sizing: border-box;
+}
 
 .main-section {
     margin: auto;
@@ -21,6 +23,10 @@ html {
 #unit-conversion {
     background: #6943FF;
     height: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #title {
@@ -35,6 +41,14 @@ html {
 }
 
 #add-number {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 83px;
+    background: #6943FF;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
     color: #FFF;
     width: 211px;
     height: 51.225px;
@@ -73,25 +87,55 @@ html {
 }
 
 .units {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     width: 500px;
     height: 108.573px;
     border-radius: 4.681px 0px 0px 0px;
     background: var(--white, #FFF);
     /* background: #273549; */ /* Dark Mode */
-    align-items: center;
 }
 
-/* .unit */
+.unit {
+    width: 346px;
+    height: 25px;
+    color: #5A537B;
+    /* color: #CCC1FF; */ /* Dark Mode */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 100% */
+}
+
 /* #length */
 /* #volume */
 /* #mass */
-/* .formulae */
+
+.formulae {
+    width: 346px;
+    height: 25px;
+    color: #353535;
+    /* color: #FFF; */ /* Dark Mode */
+    /* text-sm/leading-5/font-normal */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
 /* #meters-feet */
-/* #liters-gallons */
-/* #kilograms-pounds */
+
 /* #meters-to-feet */
 /* #feet-to-meters */
+
+/* #liters-gallons */
+
 /* #liters-to-gallons */
 /* #gallons-to-liters */
+
+/* #kilograms-pounds */
+
 /* #kilos-to-pounds */
 /* #pounds-to-kilos */
