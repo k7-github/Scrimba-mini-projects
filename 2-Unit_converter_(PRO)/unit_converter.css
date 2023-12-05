@@ -8,6 +8,7 @@
 
 html {
     text-align: center;
+    /* font-family: Inter; */
 }
 
 /* body {} */
@@ -61,9 +62,25 @@ html {
     line-height: 24px; /* 150% */
 }
 
-/* #converted-units */
-/* #unit-container */
-/* .units */
+#converted-units {
+    height: 729px;
+    background: #F4F4F4;
+    /* background: #1F2937; */ /* Dark Mode */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.units {
+    width: 500px;
+    height: 108.573px;
+    border-radius: 4.681px 0px 0px 0px;
+    background: var(--white, #FFF);
+    /* background: #273549; */ /* Dark Mode */
+    align-items: center;
+}
+
 /* .unit */
 /* #length */
 /* #volume */
