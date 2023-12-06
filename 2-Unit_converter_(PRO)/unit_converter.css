@@ -21,6 +21,22 @@
 
 /* #B295FF */ /* #add-number border-color */
 
+/* rgba(0, 0, 0, 0.05) */ /* #convert box-shadow */
+
+/* #3D3D3D */ /* #convert font-color */
+
+/* #F4F4F4 */ /* #converted-units background-color */
+
+/* #1F2937 */ /* #converted-units background-color (Dark Mode) */
+
+/* #273549 */ /* .units background-color (Dark Mode) */
+
+/* #5A537B */ /* .unit font-color */
+
+/* #CCC1FF */ /* .unit font-color (Dark Mode) */
+
+/* #353535 */ /* .formulae font-color */
+
 html {
     text-align: center;
     /* font-family: Inter; */
