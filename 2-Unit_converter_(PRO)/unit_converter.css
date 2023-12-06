@@ -4,7 +4,29 @@
     margin: 0;
 }
 
-/* :root {} */
+/* CSS Colour Variables for Light Mode */
+:root {
+    --primary-purple: #6943FF;
+    --white: #FFF;
+    --light-purple: #B295FF;
+    --black-transparent: rgba(0, 0, 0, 0.05);
+    --dark-gray: #3D3D3D;
+    --light-gray: #F4F4F4;
+    --deep-lavender: #5A537B;
+    --charcoal-gray: #353535;
+}
+
+/* CSS Colour Variables for Dark Mode */
+/* :root {
+    --primary-purple: #6943FF;
+    --white: #FFF;
+    --light-purple: #B295FF;
+    --black-transparent: rgba(0, 0, 0, 0.05);
+    --dark-gray: #3D3D3D;
+    --navy-blue: #1F2937;
+    --dark-blue: #273549;
+    --pale-lilac: #CCC1FF;
+} */
 
 /* #6943FF;  */
     /* #unit-conversion background color */
@@ -16,7 +38,7 @@
     /* #title font-color */
     /* #add-number font-color */
     /* #convert background-color */
-    /* .units background-color */
+    /* .units background-color (Light Mode) */
     /* .formulae font-color (Dark Mode) */
 
 /* #B295FF */ /* #add-number border-color */
@@ -25,17 +47,17 @@
 
 /* #3D3D3D */ /* #convert font-color */
 
-/* #F4F4F4 */ /* #converted-units background-color */
+/* #F4F4F4 */ /* #converted-units background-color (Light Mode) */
 
 /* #1F2937 */ /* #converted-units background-color (Dark Mode) */
 
 /* #273549 */ /* .units background-color (Dark Mode) */
 
-/* #5A537B */ /* .unit font-color */
+/* #5A537B */ /* .unit font-color (Light Mode) */
 
 /* #CCC1FF */ /* .unit font-color (Dark Mode) */
 
-/* #353535 */ /* .formulae font-color */
+/* #353535 */ /* .formulae font-color (Light Mode) */
 
 html {
     text-align: center;
