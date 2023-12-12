@@ -76,7 +76,7 @@ body {
 }
 
 #unit-conversion {
-    background: #6943FF;
+    background: var(--primary-purple);
     height: 285px;
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@ body {
 }
 
 #title {
-    color: #FFF;
+    color: var(--white);
     width: 448.4px;
     height: 38px;
     font-size: 28px;
@@ -101,10 +101,10 @@ body {
     justify-content: center;
     width: 117px;
     height: 83px;
-    background: #6943FF;
+    background: var(--primary-purple);
     border-radius: 5px;
-    border: 2px solid #B295FF;
-    color: #FFF;
+    border: 2px solid var(--light-purple);
+    color: var(--white);
     width: 211px;
     height: 51.225px;
     font-size: 58px;
@@ -119,11 +119,11 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background: #FFF;
+    background: var(--white);
     /* shadow/sm */
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 1px 2px 0px var(--black-transparent);
 
-    color: #3D3D3D;
+    color: var(--dark-gray);
     /* text-base/leading-6/font-medium */
     font-size: 16px;
     font-weight: 500;
@@ -133,8 +133,8 @@ body {
 
 #converted-units {
     height: 729px;
-    background: #F4F4F4;
-    /* background: #1F2937; */ /* Dark Mode */
+    background: var(--light-gray);
+    /* background: var(--navy-blue); */ /* Dark Mode */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -149,15 +149,15 @@ body {
     width: 500px;
     height: 108.573px;
     border-radius: 4.681px 0px 0px 0px;
-    background: var(--white, #FFF);
-    /* background: #273549; */ /* Dark Mode */
+    background: var(--white);
+    /* background: var(--dark-blue); */ /* Dark Mode */
 }
 
 .unit {
     width: 346px;
     height: 25px;
-    color: #5A537B;
-    /* color: #CCC1FF; */ /* Dark Mode */
+    color: var(--deep-lavender);
+    /* color: var(--pale-lilac); */ /* Dark Mode */
     font-size: 20px;
     font-weight: 600;
     font-family: Inter;
@@ -171,8 +171,8 @@ body {
 .formulae {
     width: 346px;
     height: 25px;
-    color: #353535;
-    /* color: #FFF; */ /* Dark Mode */
+    color: var(--charcoal-gray);
+    /* color: var(--white); */ /* Dark Mode */
     /* text-sm/leading-5/font-normal */
     font-size: 14px;
     font-weight: 400;
