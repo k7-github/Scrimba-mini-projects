@@ -13,8 +13,8 @@ convertBtn.addEventListener("click", function() {
 
 resetBtn.addEventListener("click", function() {
     if (baseVal != 0) {
-        baseVal = 0
-        addNumberEl.value = 0
+        baseVal = null
+        addNumberEl.value = null
         lengthConversion()
         volumeConversion()
         massConversion()
