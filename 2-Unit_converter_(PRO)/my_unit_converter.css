@@ -75,6 +75,7 @@ body {
     display: inline-flex;
     justify-content: center;
     /* width: 117px; */
+    width: 10em;
     /* height: 83px; */
     background: var(--primary-purple);
     border-radius: 5px;
@@ -85,6 +86,7 @@ body {
     font-weight: 800;
     font-family: Inter;
     line-height: 24.393px; /* 42.057% */
+    padding-left: 0.5em;
 }
 
 .conversion-buttons {
