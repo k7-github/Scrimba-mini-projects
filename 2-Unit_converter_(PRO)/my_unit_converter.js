@@ -3,6 +3,8 @@ let addNumberEl = document.getElementById("add-number")
 const convertBtn = document.getElementById("convert")
 const resetBtn = document.getElementById("reset")
 // const toggleBtn = document.getElementById("toggle")
+// Watch these videos on how to create a light mode / dark mode toggle:
+    
 
 convertBtn.addEventListener("click", function() {
     baseVal = addNumberEl.value
