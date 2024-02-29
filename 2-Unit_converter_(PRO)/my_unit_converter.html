@@ -14,9 +14,12 @@
         <h1 id="title">Metric/Imperial Unit Conversion</h1>
         <!-- Add label(s) here to specify the expected unit of the input. -->
         <input type="number" id="add-number" placeholder="Add Number Here" required/>
-        <button class="conversion-buttons" id="convert">Convert</button>
-        <button class="conversion-buttons" id="reset">Reset</button>
-        <!-- Add light/dark toggle button here -->
+        <div id="buttons">
+            <button class="conversion-buttons" id="convert">Convert</button>
+            <button class="conversion-buttons" id="reset">Reset</button>
+            <button id="toggle">Toggle</button>
+        </div>
+        
     </section>
     <section class="main-section" id="converted-units">
         <div class="units">
