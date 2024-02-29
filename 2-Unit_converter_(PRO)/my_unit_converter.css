@@ -89,6 +89,12 @@ body {
     padding-left: 0.5em;
 }
 
+#buttons {
+    border: 10px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
 .conversion-buttons {
     display: inline-flex;
     padding: 9px 27.5px;
