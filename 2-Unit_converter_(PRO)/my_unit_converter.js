@@ -4,7 +4,7 @@ const convertBtn = document.getElementById("convert")
 const resetBtn = document.getElementById("reset")
 // const toggleBtn = document.getElementById("toggle")
 // Watch these videos on how to create a light mode / dark mode toggle:
-    
+    // Dark & Light Mode Toggle | HTML, CSS & Javascript (https://www.youtube.com/watch?v=vQTZl_5H90k)
 
 convertBtn.addEventListener("click", function() {
     baseVal = addNumberEl.value
