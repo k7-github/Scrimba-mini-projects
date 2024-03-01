@@ -90,11 +90,11 @@ body {
 }
 
 #buttons {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
-    height: 10em;
+    /* height: 10em; */
     width: 30em;
 }
 
@@ -116,19 +116,15 @@ body {
     line-height: 24px; /* 150% */
     height: 50px;
     width: 100px;
-
+    margin: 0px 10px;
 }
 
-#convert {
-    background: var(--white);
+.conversion-buttons :hover {
+    background: var(--dark-gray);
     /* shadow/sm */
-    box-shadow: 0px 1px 2px 0px var(--black-transparent);
-    color: var(--dark-gray);
+    box-shadow: 0px 0px 0px 100px var(--white-transparent);
+    color: var(--white);
     /* text-base/leading-6/font-medium */
-}
-
-#reset {
-    
 }
 
 #toggle {
@@ -141,6 +137,7 @@ body {
     
     height: 60px;
     width: 60px;
+    margin-left: auto;
 }
 
 /* Converted Units Section */
