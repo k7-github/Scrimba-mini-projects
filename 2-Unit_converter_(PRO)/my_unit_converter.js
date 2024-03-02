@@ -5,6 +5,9 @@ const resetBtn = document.getElementById("reset")
 // const toggleBtn = document.getElementById("toggle")
 // Watch these videos on how to create a light mode / dark mode toggle:
     // Dark & Light Mode Toggle | HTML, CSS & Javascript (https://www.youtube.com/watch?v=vQTZl_5H90k)
+    // Build An Easy Light/Dark Mode Toggle With CSS & JavaScript (https://www.youtube.com/watch?v=Kxv7GIDK9tg)
+    // Dark mode with a media query! (https://www.youtube.com/watch?v=_yCgeXFAXTM)
+
 
 convertBtn.addEventListener("click", function() {
     baseVal = addNumberEl.value
