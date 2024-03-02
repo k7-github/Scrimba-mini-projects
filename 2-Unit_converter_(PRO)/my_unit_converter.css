@@ -130,7 +130,7 @@ body {
     width: 100px;
 }
 
-.conversion-buttons :hover {
+.conversion-buttons:active {
     background: var(--dark-gray);
     /* shadow/sm */
     box-shadow: 0px 0px 0px 100px var(--white-transparent);
