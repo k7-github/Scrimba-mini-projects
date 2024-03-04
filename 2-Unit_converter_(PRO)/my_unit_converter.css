@@ -18,7 +18,7 @@
 }
 
 /* CSS Colour Variables for Dark Mode */
-/* :root {
+:root {
     --primary-purple: #6943FF;
     --white: #FFF;
     --light-purple: #B295FF;
@@ -28,7 +28,7 @@
     --navy-blue: #1F2937;
     --dark-blue: #273549;
     --pale-lilac: #CCC1FF;
-} */
+}
 
 html {
     font-family: Inter;
@@ -151,6 +151,12 @@ body {
     align-items: center;
 }
 
+
+.dark-mode #converted-units {
+    background: var(--navy-blue);
+}
+/* This selector is not working for some reason ... */
+
 .units {
     display: flex;
     flex-direction: column;
@@ -161,6 +167,10 @@ body {
     border-radius: 4.681px 0px 0px 0px;
     background: var(--white);
     /* background: var(--dark-blue); */ /* Dark Mode */
+}
+
+.dark-mode .units {
+    background: var(--dark-blue);
 }
 
 .unit {
@@ -175,6 +185,10 @@ body {
     line-height: 20px; /* 100% */
 }
 
+.dark-mode .unit {
+    color: var(--pale-lilac);
+}
+
 .formulae {
     width: 346px;
     height: 25px;
@@ -186,4 +200,8 @@ body {
     font-weight: 400;
     font-family: Inter;
     line-height: 20px; /* 142.857% */
+}
+
+.dark-mode .formulae {
+    color: var(--white);
 }
