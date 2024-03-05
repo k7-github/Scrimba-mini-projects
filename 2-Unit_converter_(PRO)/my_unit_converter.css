@@ -152,10 +152,7 @@ body {
 }
 
 
-.dark-mode #converted-units {
-    background: var(--navy-blue);
-}
-/* This selector is not working for some reason ... */
+
 
 .units {
     display: flex;
@@ -169,9 +166,7 @@ body {
     /* background: var(--dark-blue); */ /* Dark Mode */
 }
 
-.dark-mode .units {
-    background: var(--dark-blue);
-}
+
 
 .unit {
     width: 346px;
@@ -185,9 +180,7 @@ body {
     line-height: 20px; /* 100% */
 }
 
-.dark-mode .unit {
-    color: var(--pale-lilac);
-}
+
 
 .formulae {
     width: 346px;
@@ -200,6 +193,21 @@ body {
     font-weight: 400;
     font-family: Inter;
     line-height: 20px; /* 142.857% */
+}
+
+/* Dark Mode Colours */
+
+.dark-mode #converted-units {
+    background: var(--navy-blue);
+}
+/* This selector is not working for some reason ... */
+
+.dark-mode .units {
+    background: var(--dark-blue);
+}
+
+.dark-mode .unit {
+    color: var(--pale-lilac);
 }
 
 .dark-mode .formulae {
