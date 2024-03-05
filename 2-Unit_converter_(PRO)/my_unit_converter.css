@@ -197,8 +197,8 @@ body {
 
 /* Dark Mode Colours */
 
-.dark-mode #converted-units {
-    background: var(--navy-blue);
+section .dark-mode .main-section {
+    background: var(--navy-blue) !important;
 }
 /* This selector is not working for some reason ... */
 
