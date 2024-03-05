@@ -1,8 +1,11 @@
 let baseVal = 0
 let addNumberEl = document.getElementById("add-number")
+
+// Variables for the Convert, Reset and light / dark toggle checkbox
 const convertBtn = document.getElementById("convert")
 const resetBtn = document.getElementById("reset")
-// const toggleBtn = document.getElementById("toggle")
+const toggleChk = document.getElementById("toggle")
+
 // Watch these videos on how to create a light mode / dark mode toggle:
     // Dark & Light Mode Toggle | HTML, CSS & Javascript (https://www.youtube.com/watch?v=vQTZl_5H90k)
     // Build An Easy Light/Dark Mode Toggle With CSS & JavaScript (https://www.youtube.com/watch?v=Kxv7GIDK9tg)
@@ -24,6 +27,12 @@ resetBtn.addEventListener("click", function() {
         massConversion()
     }
 })
+
+toggleChk.addEventListener ('click', function() {
+    document.body.classList.toggle('dark-mode')
+})
+
+// Helper functions for the Convert and Reset button Event Listener functions.
 function lengthConversion() {
     metersToFeet()
     feetToMeters()
