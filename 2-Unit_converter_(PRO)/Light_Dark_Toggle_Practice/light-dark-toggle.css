@@ -13,3 +13,24 @@
     /* p */
         /* .generic-text */
         /* .dark-mode */
+
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+/* :root {} */
+
+.main-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50rem;
+}
