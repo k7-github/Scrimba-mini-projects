@@ -29,8 +29,27 @@ html {
 
 /* :root {} */
 
+#toggle-box {
+    position: fixed;
+    top: 100px;
+    right: 100px;
+}
+
 .main-section {
     margin-left: auto;
     margin-right: auto;
     width: 50rem;
+    background-color: white;
 }
+
+.generic-text {
+    color: black;
+}
+
+/* .main-section .dark-mode {
+    background-color: black;
+} */
+
+/* .generic-text .dark-mode {
+    color: white;
+} */
